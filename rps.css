@@ -1,0 +1,59 @@
+*{
+    margin: 10px;
+    
+}
+.title{
+    color:yellow;
+    border-radius: 17px;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 56px;
+    flex-wrap: nowrap;
+}
+
+.buttons{
+    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 70vw;
+}
+
+.btn-rock , .btn-paper ,.btn-scissor{
+    display: grid;
+    background-color: black;
+    display: grid;
+    border: solid 3px yellow ;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.score{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.reset-btn{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    font-size: 32px;
+    margin-top: 50px;
+}
